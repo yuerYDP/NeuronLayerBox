@@ -1,0 +1,6 @@
+#!/bin/sh 
+echo "start show"
+./show &
+sleep 3
+echo "start test"
+./test &
